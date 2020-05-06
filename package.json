@@ -1,7 +1,7 @@
 {
-  "name": "eosjs-json",
+  "name": "rixjs-json",
   "version": "4.0.2",
-  "description": "Information about the EOS blockchain in the JSON file format.",
+  "description": "Information about the RIX blockchain in the JSON file format.",
   "dependencies": {},
   "devDependencies": {
     "camel-case": "^3.0.0",
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs-json.git"
+    "url": "git+https://github.com/ARISEN/rixjs-json.git"
   },
   "keywords": [
-    "EOS",
+    "RIX",
     "Blockchain"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs-json/issues"
+    "url": "https://github.com/ARISEN/rixjs-json/issues"
   },
-  "homepage": "https://github.com/EOSIO/eosjs-json#readme"
+  "homepage": "https://github.com/ARISEN/rixjs-json#readme"
 }

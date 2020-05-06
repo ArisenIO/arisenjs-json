@@ -42,15 +42,15 @@
       "storage_bytes": "uint64"
     }
   },
-  "eosio_global_state": {
-    "base": "eosio_parameters",
+  "arisen_global_state": {
+    "base": "arisen_parameters",
     "fields": {
       "total_storage_bytes_reserved": "uint64",
       "total_storage_stake": "uint64",
       "payment_per_block": "uint64"
     }
   },
-  "eosio_parameters": {
+  "arisen_parameters": {
     "base": "",
     "fields": {
       "base_per_transaction_net_usage": "uint32",
@@ -99,7 +99,7 @@
     "fields": {
       "owner": "account_name",
       "total_votes": "uint128",
-      "prefs": "eosio_parameters",
+      "prefs": "arisen_parameters",
       "packed_key": "uint8[]",
       "per_block_payments": "uint64",
       "last_claim_time": "uint32"
@@ -118,7 +118,7 @@
     "fields": {
       "producer": "account_name",
       "producer_key": "bytes",
-      "prefs": "eosio_parameters"
+      "prefs": "arisen_parameters"
     }
   },
   "regproxy": {

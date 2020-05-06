@@ -59,7 +59,7 @@
     },
     "results": {
       "account_name": "name",
-      "eos_balance": "uint64",
+      "rix_balance": "uint64",
       "staked_balance": "uint64",
       "unstaking_balance": "uint64",
       "last_unstaking_time": "time",
